@@ -6,7 +6,7 @@ using ItemAPI;
 using UnityEngine;
 
 namespace Knives
-{
+{	// EXAMPLE CODE I USED BY SPECIAL API_________________________________________________________
 	// Token: 0x02000021 RID: 33
 	internal class BigGunController : GunBehaviour
 	{

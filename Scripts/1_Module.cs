@@ -13,7 +13,7 @@ namespace Knives
     {
         public static readonly string MOD_NAME = "Knife_to_a_Gunfight";
         
-        public static readonly string VERSION = "1.0.0";
+        public static readonly string VERSION = "1.0.3";
         public static readonly string TEXT_COLOR = "#5deba4";
 
         public override void Start()
@@ -53,15 +53,16 @@ namespace Knives
             Survivor.Register();
             speedster.Register();
             Danger_dance.Register();
+            disco_inferno.Register();
+            persuasive_bullets.Register();
 
             // general active
             Led_Maiden.Register();
             jojo_arrow.Register();
-            cased_daruma.Register();
             nano_boost.Register();
             rad_board.Register();
             koolbucks.Register();
-            Pig_Whistle.Register();
+            cased_daruma.Register();
             sandvich.Register();
             dog.Register();
             power_bracer.Register();
@@ -69,7 +70,9 @@ namespace Knives
             Eye_of_the_tiger.Register();
             Luft_balloons.Register();
             punisher.Register();
-
+            vodoo_kit.Register();
+            BloodyNapkin.Register();
+            Pig_Whistle.Register();
 
             //Guns
             hail_2_u.Add();
@@ -77,12 +80,14 @@ namespace Knives
             Za_hando.Add();
             violin.Add();
             Queen.Add();
-            //testing_gun.Add();
-            //hot_coffee.Add();
+            Lance.Add();
+            MagicHat.Add();
+            CopperChariot.Add();
+            //KnightSpear.Add();
+            //SpinHammer.Add();
 
             //unfinished or unfunctional
 
-            //trinket.Register();
             //smooth_criminal.Register();
             //Old_Computer.Register();
             //bandaids.Register();
@@ -95,6 +100,8 @@ namespace Knives
             //Dio.Register();
             //testing_gun.Add();
             //hot_coffee.Add();
+            
+            //trinket.Register();
 
             GameManager.Instance.SynergyManager.synergies = GameManager.Instance.SynergyManager.synergies.Concat(new AdvancedSynergyEntry[] { new Customsynergiesknives.tomislav() }).ToArray();
             GameManager.Instance.SynergyManager.synergies = GameManager.Instance.SynergyManager.synergies.Concat(new AdvancedSynergyEntry[] { new Customsynergiesknives.Daft_Punk() }).ToArray();

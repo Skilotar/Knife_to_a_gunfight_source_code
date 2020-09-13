@@ -246,9 +246,9 @@ namespace Knives
                 this.statModifiers = new List<StatModifier>(0)
                 {
 
-                    StatModifier.Create(PlayerStats.StatType.ReloadSpeed,StatModifier.ModifyMethod.ADDITIVE, -.5f),
+                    StatModifier.Create(PlayerStats.StatType.ReloadSpeed,StatModifier.ModifyMethod.ADDITIVE, -.3f),
 
-                    StatModifier.Create(PlayerStats.StatType.RateOfFire,StatModifier.ModifyMethod.ADDITIVE, .5f),
+                    StatModifier.Create(PlayerStats.StatType.RateOfFire,StatModifier.ModifyMethod.ADDITIVE, .2f),
 
 
                 };
